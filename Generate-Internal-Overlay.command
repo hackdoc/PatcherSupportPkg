@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 OCLP_DIRECTORY:  str = "../OCLP-R"
-OVERLAY_FOLDER:  str = "PyquickInternalResources"
+OVERLAY_FOLDER:  str = "HackdocInternalResources"
 OVERLAY_DMG:     str = OVERLAY_FOLDER + ".dmg"
 ENCRYPTION_FILE: str = "" # Replace with path to file containing the encryption password
 

@@ -36,11 +36,11 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: deploy/*
-          tag_name: push-${{ github.sha }}
-          name: 1.9.8
-          #body: ${{ github.event.head_commit.message }}
-          body: 1.9.8
-          prerelease: false
+          #tag_name: push-${{ github.sha }}
+          tag_name: 1.9.9pre1
+          name: 1.9.9pre1
+          body: ${{ github.event.head_commit.message }}
+          prerelease: true
           generate_release_notes: true
           
       - name: Upload to Release
