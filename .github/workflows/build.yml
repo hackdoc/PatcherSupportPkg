@@ -1,0 +1,52 @@
+name: CI - Upload Binaries
+
+on:
+  push:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+concurrency:
+    cancel-in-progress: true
+    group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.ref }}
+
+jobs:
+  build_mojave:
+    name: Zip and Upload Binaries
+    runs-on: macos-15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Tag folder
+        run: touch Universal-Binaries/.signed
+      - name: Build DMG
+        run:  python3.13 Generate-DMG.command
+      - name: Generate Checksums
+        run: shasum -a 256 Universal-Binaries.dmg > sha256sum.txt
+      - run: |
+          mkdir deploy
+          mv *.dmg sha256sum.txt deploy/
+      - name: Create Pre-Release on Push
+        if: github.event_name == 'push'
+        uses: softprops/action-gh-release@v1
+        with:
+          files: deploy/*
+          tag_name: push-${{ github.sha }}
+          name: 1.9.8
+          #body: ${{ github.event.head_commit.message }}
+          body: 1.9.8
+          prerelease: false
+          generate_release_notes: true
+          
+      - name: Upload to Release
+        if: github.event_name == 'release'
+        uses: svenstaro/upload-release-action@1beeb572c19a9242f4361f4cee78f8e0d9aec5df
+        with:
+          file: deploy/*
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file_glob: true
