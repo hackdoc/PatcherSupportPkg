@@ -37,8 +37,8 @@ jobs:
         with:
           files: deploy/*
           #tag_name: push-${{ github.sha }}
-          tag_name: 1.9.9pre1
-          name: 1.9.9pre1
+          tag_name: 1.9.9pre2
+          name: 1.9.9pre2
           body: ${{ github.event.head_commit.message }}
           prerelease: true
           generate_release_notes: true

@@ -1,7 +1,9 @@
 # PatcherSupportPkg
 
 Repo dedicated to Apple binaries used for patching macOS to run with legacy hardware.
-
+------------------
+![GitHub all releases](https://img.shields.io/github/downloads/hackdoc/PatcherSupportPkg/total?color=white&style=plastic)
+------------------
 ## Sources:
 
 * [ASentientBot](https://github.com/ASentientBot):
