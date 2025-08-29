@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "https://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>-10008</integer>
+		<key>autoLoad</key>
+		<false/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/Eject.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10006</string>
+		<key>autoLoad</key>
+		<true/>
+		<key>method</key>
+		<string>_pppCanLoad</string>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/PPP.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10007</string>
+		<key>autoLoad</key>
+		<true/>
+		<key>method</key>
+		<string>_pppoeCanLoad</string>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/PPPoE.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10018</string>
+		<key>autoLoad</key>
+		<true/>
+		<key>method</key>
+		<string>_remoteDesktopCanLoad</string>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/RemoteDesktop.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10027</string>
+		<key>autoLoad</key>
+		<true/>
+		<key>alwaysCheck</key>
+		<true/>
+		<key>method</key>
+		<string>_wwanCanLoad</string>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/WWAN.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10013</string>
+		<key>autoLoad</key>
+		<true/>
+		<key>method</key>
+		<string>_expressCardCanLoad</string>
+		<key>alwaysCheck</key>
+		<true/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/ExpressCard.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10015</string>
+		<key>autoLoad</key>
+		<false/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/iChat.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10017</string>
+		<key>autoLoad</key>
+		<false/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/Ink.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10005</string>
+		<key>autoLoad</key>
+		<false/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/IrDA.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10011</string>
+		<key>autoLoad</key>
+		<false/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/Script Menu.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10024</string>
+		<key>autoLoad</key>
+		<false/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/TimeMachine.menu</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>-10019</string>
+		<key>autoLoad</key>
+		<false/>
+		<key>path</key>
+		<string>/System/Library/CoreServices/Menu Extras/VPN.menu</string>
+	</dict>
+</array>
+</plist>
