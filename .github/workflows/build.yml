@@ -37,10 +37,10 @@ jobs:
         with:
           files: deploy/*
           #tag_name: push-${{ github.sha }}
-          tag_name: 1.10.0
-          name: 1.10.0
+          tag_name: 1.10.1-pre
+          name: 1.10.0 Tahoe Test DO NOT USE IT FOR PRODUCTION
           body: ${{ github.event.head_commit.message }}
-          prerelease: false
+          prerelease: true
           generate_release_notes: true
           
       - name: Upload to Release
