@@ -36,11 +36,10 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: deploy/*
-          #tag_name: push-${{ github.sha }}
-          tag_name: 1.10.1-pre
-          name: 1.10.0 Tahoe Test DO NOT USE IT FOR PRODUCTION
+          tag_name: 1.10.1
+          name: 1.10.0 Tahoe Test
           body: ${{ github.event.head_commit.message }}
-          prerelease: true
+          prerelease: false
           generate_release_notes: true
           
       - name: Upload to Release
