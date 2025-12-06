@@ -18,9 +18,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Clean, strip, and sign binaries
-        run: python3 ci.py
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
