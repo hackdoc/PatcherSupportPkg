@@ -10,7 +10,7 @@ from pathlib import Path
 
 # Configurable options
 
-IDENTITY = "Hackdoc Signing"
+IDENTITY = "hackdoc"
 TARGET_DIR = Path("Universal-Binaries")
 UNUSED = [
     # Mojave and Catalina non-Metal Patches

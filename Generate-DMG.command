@@ -14,7 +14,7 @@ DMG_VOLNAME:      str = "OpenCore Patcher Resources (Root Patching)"
 DMG_SIZE:         str = "4096"
 DMG_FORMAT:       str = "UDRO"
 DMG_PASSPHRASE:   str = "password"
-SIGNING_IDENTITY: str = "Hackdoc Signing"
+SIGNING_IDENTITY: str = "hackdoc"
 
 
 class GenerateDiskImage:
