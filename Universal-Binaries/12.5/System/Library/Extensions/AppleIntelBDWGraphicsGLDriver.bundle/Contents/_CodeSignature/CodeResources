@@ -6,7 +6,7 @@
 	<dict>
 		<key>version.plist</key>
 		<data>
-		URlFX7MLezd996uL8bW+BEuXPuM=
+		AJHsvVMuYAd8eVD5BWvuduIifmQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,34 +15,34 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			jpE3agVU070bvtkxO94zHsak2yE=
+			P+z5V3OnA9iXnoEKvJ1iUZZvMfU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"8e91376a0554d3bd1bbed9313bde331ec6a4db21"</string>
+			<string>identifier "com.apple.iCBE" and anchor apple</string>
 		</dict>
 		<key>MacOS/iCBE_ocl.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			lLlwG7vu3wDc5BhP18wTZU3776U=
+			bSNSXcZOTP6AalC3/Kxm/bq47OQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"94b9701bbbeedf00dce4184fd7cc13654dfbefa5"</string>
+			<string>identifier "com.apple.iCBE_ocl" and anchor apple</string>
 		</dict>
 		<key>MacOS/libigdmd.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			PnMUweKTELSDgRBONpPenwPB2qE=
+			lN7fAMpVP4EykL8cpZ9YvLbcftk=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"3e7314c1e29310b48381104e3693de9f03c1daa1"</string>
+			<string>identifier "com.apple.libigdmd" and anchor apple</string>
 		</dict>
 		<key>version.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PvhrI50u+OQwbfb1M/cDiH/QxHdF+nBED9FQfZFG+9E=
+			XPjvaIz9/XGd/aywyHv1QSE6l0kdkvfKGAl4mcbAOT0=
 			</data>
 		</dict>
 	</dict>
