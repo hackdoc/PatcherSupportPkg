@@ -22,6 +22,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+      - name: Clean and strip binaries
+        run: python3 ci.py
       - name: Tag folder
         run: touch Universal-Binaries/.signed
       - name: Build DMG
@@ -37,7 +39,7 @@ jobs:
         with:
           files: deploy/*
           tag_name: 1.10.1
-          name: 1.10.0 Tahoe Test
+          name: 1.11.0
           body: ${{ github.event.head_commit.message }}
           prerelease: false
           generate_release_notes: true
