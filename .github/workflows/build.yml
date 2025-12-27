@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Clean and strip binaries
-        run: python3 ci.py
+        run: python3 cin.py
       - name: Tag folder
         run: touch Universal-Binaries/.signed
       - name: Build DMG
