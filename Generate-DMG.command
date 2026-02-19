@@ -64,7 +64,7 @@ class GenerateDiskImage:
             "/usr/bin/hdiutil", "create",
             "-srcfolder", UB_DIRECTORY, "tmp.dmg",
             "-volname", DMG_VOLNAME,
-            "-fs", "HFS+", "-ov",
+            "-fs", "APFS", "-ov",
             "-format", DMG_FORMAT,
             "-megabytes", DMG_SIZE
         ], capture_output=True)
