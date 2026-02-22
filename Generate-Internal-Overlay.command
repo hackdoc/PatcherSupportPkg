@@ -128,7 +128,7 @@ class GenerateInternalDiffDiskImage:
             "/usr/bin/hdiutil", "create",
             "-srcfolder", OVERLAY_FOLDER, "tmp.dmg",
             "-volname", "Dortania Internal Resources",
-            "-fs", "HFS+",
+            "-fs", "APFS",
             "-ov",
             "-format", "UDRO"
         ], capture_output=True, text=True)
