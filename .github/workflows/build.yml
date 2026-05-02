@@ -38,8 +38,8 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: deploy/*
-          tag_name: 1.11.2
-          name: 1.11.2
+          tag_name: 1.11.3
+          name: 1.11.3
           body: ${{ github.event.head_commit.message }}
           prerelease: false
           generate_release_notes: true
