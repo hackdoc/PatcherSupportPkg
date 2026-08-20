@@ -1,0 +1,7 @@
+"HDAUniversal.DeviceName" = "HDAUniversal Analog Audio";
+"HDAUniversal.Output.LineOut" = "Line Out";
+"HDAUniversal.Output.Headphones" = "Headphones";
+"HDAUniversal.Output.Speakers" = "Internal Speakers";
+"HDAUniversal.Input.Microphone" = "Microphone";
+"HDAUniversal.Input.ExternalMicrophone" = "External Microphone";
+"HDAUniversal.Input.LineIn" = "Line In";
