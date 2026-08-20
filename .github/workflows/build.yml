@@ -17,9 +17,9 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.13'
       - name: Clean and strip binaries
@@ -35,7 +35,7 @@ jobs:
           mv *.dmg sha256sum.txt deploy/
       - name: Create Pre-Release on Push
         if: github.event_name == 'push'
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           files: deploy/*
           tag_name: 1.11.4
