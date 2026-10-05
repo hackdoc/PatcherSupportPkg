@@ -15,14 +15,14 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>IOAcceleratorOld.dylib</key>
+		<key>IOAcceleratorOriginal</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			WNvUk8ZczLIupHV1BgDs4xDNUQc=
+			rLsvEZzMW1yh4XfNUrCaD0TIP5c=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"58dbd493c65cccb22ea475750600ece310cd5107"</string>
+			<string>cdhash H"acbb2f119ccc5b5ca1e177cd52b09a0f44c83f97"</string>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>

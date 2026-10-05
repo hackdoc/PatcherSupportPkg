@@ -24,6 +24,10 @@
 		<data>
 		lAHI/QhL93goZONxXyvKy1DjiSk=
 		</data>
+		<key>version.plist</key>
+		<data>
+		qOD5mRpJvjbTwq98EUrvUAnqfZ8=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -31,10 +35,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			vcf/dY1tbHbZjWU6Cuip+AM0ulg=
+			UlvWRVkJVg58rHGXTYadQlXeL20=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bdc7ff758d6d6c76d98d653a0ae8a9f80334ba58"</string>
+			<string>cdhash H"525bd6455909560e7cac71974d869d4255de2f6d"</string>
 		</dict>
 		<key>Resources/GFX9Statistics-analysis.js</key>
 		<dict>
@@ -69,6 +73,13 @@
 			<key>hash2</key>
 			<data>
 			fA113DrJZFRZQnYR2OC0UnyDrtIckwUwouiqJQwWNk8=
+			</data>
+		</dict>
+		<key>version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6A9zmKa26viK0qRnkUJl1LDhiyU7q9ziG0QjRoUlIP4=
 			</data>
 		</dict>
 	</dict>
