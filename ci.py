@@ -120,9 +120,9 @@ def signing_sanity_checks(file: Path) -> tuple[bool, bool]:  # (valid, needs_sig
         # elif error_reason == "unsealed contents present in the bundle root" and "Signature=adhoc" in binary_details:
         #     # Bundle was not properly deep signed, ignore
         #     pass
-        # elif "is not signed at all" in error_reason:
-        #     # This is fine, we will sign it
-        #     return True, True
+        elif "is not signed at all" in error_reason:
+            # This is fine, we will thin and sign it
+            return True, True
         else:
             # invalid signature (code or signature have been modified)
             print(f"ERROR: {file}: {error_reason}")
