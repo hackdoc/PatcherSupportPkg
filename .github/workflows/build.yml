@@ -42,8 +42,8 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           files: deploy/*
-          tag_name: 2.0.1
-          name: 2.0.1
+          tag_name: 2.0.2
+          name: 2.0.2
           body: ${{ github.event.head_commit.message }}
           prerelease: false
           generate_release_notes: true
