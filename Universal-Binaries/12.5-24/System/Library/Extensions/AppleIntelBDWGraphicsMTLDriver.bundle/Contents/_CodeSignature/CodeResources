@@ -275,23 +275,14 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/AppleIntelBDWGraphicsMTLDriver_real</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			gdUrNc4+0DKTeZXbm4izT/OW/P4=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"81d52b35ce3ed032937995db9b88b34ff396fcfe"</string>
-		</dict>
 		<key>MacOS/impostor.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			SpQ0s9H5cO/r8luhUicrXXOK2r4=
+			Vw35XMt1x0T34GJzAaDJ2sLo58k=
 			</data>
 			<key>requirement</key>
-			<string>identifier impostor and certificate root = H"c290d2bff240f4e990f7ac9b632f568d0e2a82f5"</string>
+			<string>cdhash H"570df95ccb75c744f7e0627301a0c9dac2e8e7c9"</string>
 		</dict>
 		<key>MacOS/libigdmd.dylib</key>
 		<dict>

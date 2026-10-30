@@ -3,187 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>files</key>
-	<dict>
-		<key>Resources/EOSError.strings</key>
-		<data>
-		Tf5KoPJNBdgjjLH7HLS0W4Ld8BM=
-		</data>
-		<key>Resources/EmbeddedOSInstall.codes</key>
-		<data>
-		q0hhHpjdfWw0GpcV/q4KiZYZccY=
-		</data>
-		<key>Resources/Info.plist</key>
-		<data>
-		O0nkUxc9wSv/o/5gs1TftKchKMA=
-		</data>
-		<key>Resources/Localizable.loctable</key>
-		<data>
-		n1Bb8jBGQNIoAVdoED8R6St7tKw=
-		</data>
-		<key>Resources/eospreflightagent</key>
-		<data>
-		ohX+ep4ZwYfPZPeTU6bkyUMtFK8=
-		</data>
-		<key>Resources/version.plist</key>
-		<data>
-		fso09/p4PDMILz3yei5PsJT6DZo=
-		</data>
-	</dict>
+	<dict/>
 	<key>files2</key>
-	<dict>
-		<key>Resources/EOSError.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KbVqcz+qyHVTYwY//q2tczywDrSUVhEtuM6p8dfOhPE=
-			</data>
-		</dict>
-		<key>Resources/EmbeddedOSInstall.codes</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			l3bWz6QAiYtRraNnga00n9zXLqgqLZe9/aTu1CyaHzM=
-			</data>
-		</dict>
-		<key>Resources/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Tp5OZvdM8uM9vnsrAWkh4u29IEpJ5OZmUYBKx820n6o=
-			</data>
-		</dict>
-		<key>Resources/Localizable.loctable</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IWZFQL3RnKfd5oZQ9cbZVDS1uYIbm7ObYe7lZzDnffg=
-			</data>
-		</dict>
-		<key>Resources/eospreflightagent</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dM3PeQHBRu33glrZZF1L/IbRJmvLkvX8i7kcjI6mY98=
-			</data>
-		</dict>
-		<key>Resources/version.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9BLb1hbYhiZyRZJyTu8oN/M2Iyv73+LjVYCBedV8guc=
-			</data>
-		</dict>
-		<key>XPCServices/EmbeddedOSInstallService.xpc</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			oiA+gx6e1DVZlN0V8bik2Le5snc=
-			</data>
-			<key>requirement</key>
-			<string>identifier "com.apple.EmbeddedOSInstallService" and anchor apple</string>
-		</dict>
-	</dict>
+	<dict/>
 	<key>rules</key>
 	<dict>
-		<key>^Resources/</key>
-		<true/>
-		<key>^Resources/.*\.lproj/</key>
-		<dict>
-			<key>optional</key>
-			<true/>
-			<key>weight</key>
-			<real>1000</real>
-		</dict>
-		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<key>^.*</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
-			<real>1100</real>
+			<real>20</real>
 		</dict>
-		<key>^Resources/Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
-		</dict>
-		<key>^version.plist$</key>
-		<true/>
 	</dict>
 	<key>rules2</key>
 	<dict>
-		<key>.*\.dSYM($|/)</key>
-		<dict>
-			<key>weight</key>
-			<real>11</real>
-		</dict>
-		<key>^(.*/)?\.DS_Store$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>2000</real>
-		</dict>
 		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
-			<real>10</real>
+			<real>0.0</real>
 		</dict>
 		<key>^.*</key>
-		<true/>
-		<key>^Info\.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^PkgInfo$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^Resources/</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^Resources/.*\.lproj/</key>
-		<dict>
-			<key>optional</key>
-			<true/>
-			<key>weight</key>
-			<real>1000</real>
-		</dict>
-		<key>^Resources/.*\.lproj/locversion.plist$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>1100</real>
-		</dict>
-		<key>^Resources/Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
-		</dict>
-		<key>^embedded\.provisionprofile$</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
-		<key>^version\.plist$</key>
-		<dict>
 			<key>weight</key>
 			<real>20</real>
 		</dict>

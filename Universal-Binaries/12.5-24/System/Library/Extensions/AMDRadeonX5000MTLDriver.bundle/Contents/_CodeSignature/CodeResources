@@ -31,10 +31,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			vcf/dY1tbHbZjWU6Cuip+AM0ulg=
+			HPzO92uEFemNYeyOcRM2Ohguqbg=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bdc7ff758d6d6c76d98d653a0ae8a9f80334ba58"</string>
+			<string>identifier impostor and certificate root = H"c290d2bff240f4e990f7ac9b632f568d0e2a82f5"</string>
 		</dict>
 		<key>Resources/GFX9Statistics-analysis.js</key>
 		<dict>

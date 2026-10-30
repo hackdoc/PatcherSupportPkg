@@ -27,15 +27,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/AMDMTLBronzeDriverOld.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			SNbfujZzFdMPx2he7q8IKeYsgGk=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"48d6dfba367315d30fc7685eeeaf0829e62c8069"</string>
-		</dict>
 		<key>Resources/BronzeStatistics-analysis.js</key>
 		<dict>
 			<key>hash2</key>

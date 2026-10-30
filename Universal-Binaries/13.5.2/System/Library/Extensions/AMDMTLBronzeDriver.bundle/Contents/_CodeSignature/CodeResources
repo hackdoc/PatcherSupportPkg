@@ -27,24 +27,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>MacOS/AMDMTLBronzeDriverOld.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			rU3EWpntdM6PwW16x00Ye9Euykc=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"ad4dc45a99ed74ce8fc16d7ac74d187bd12eca47"</string>
-		</dict>
-		<key>MacOS/MetalShim.dylib</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			FJTTGlbYfbhtoHb29HHv1emu/Q4=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"1494d31a56d87db86da076f6f471efd5e9aefd0e"</string>
-		</dict>
 		<key>Resources/BronzeStatistics-analysis.js</key>
 		<dict>
 			<key>hash2</key>

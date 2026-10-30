@@ -23,10 +23,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			C63CBE0XgcpvORhU/UbAmVH9YyU=
+			UdsSsjqWyF0eufba3ykS3eFtHlI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"0badc2044d1781ca6f391854fd46c09951fd6325"</string>
+			<string>cdhash H"51db12b23a96c85d1eb9f6dadf2912dde16d1e52"</string>
 		</dict>
 		<key>PlugIns/libAMDNTPlugin.dylib</key>
 		<dict>
@@ -41,19 +41,19 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			YiXaRP8IAKxEHVojnbQHId7MQX8=
+			wHvl51jkL0J6tCrxkFMYiCKq/NQ=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"6225da44ff0800ac441d5a239db40721decc417f"</string>
+			<string>cdhash H"c07be5e758e42f427ab42af19053188822aafcd4"</string>
 		</dict>
 		<key>PlugIns/libSC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			uXZ79c3UpwWoF/3lvhFQHidhpCs=
+			vrOeDOgB04vrbkZ/QNHKhi42q3o=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"b9767bf5cdd4a705a817fde5be11501e2761a42b"</string>
+			<string>cdhash H"beb39e0ce801d38beb6e467f40d1ca862e36ab7a"</string>
 		</dict>
 		<key>Resources/runtime.amdil.bc</key>
 		<dict>

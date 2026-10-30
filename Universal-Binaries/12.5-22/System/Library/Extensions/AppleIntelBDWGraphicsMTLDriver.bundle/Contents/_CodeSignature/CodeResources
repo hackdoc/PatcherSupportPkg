@@ -279,10 +279,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			LY6m5c/Bqsnk6GJe9xKePYxqxNE=
+			f9VVzmNFq7domFvO5dor0M1zKIA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"2d8ea6e5cfc1aac9e4e8625ef7129e3d8c6ac4d1"</string>
+			<string>cdhash H"7fd555ce6345abb768985bcee5da2bd0cd732880"</string>
 		</dict>
 		<key>MacOS/libigdmd.dylib</key>
 		<dict>

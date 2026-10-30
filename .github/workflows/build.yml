@@ -22,12 +22,16 @@ jobs:
         uses: actions/setup-python@v7
         with:
           python-version: '3.13'
+      - uses: apple-actions/import-codesign-certs@8f3fb608891dd2244cdab3d69cd68c0d37a7fe93
+        with:
+          p12-file-base64: ${{ secrets.CERTIFICATES_P12 }}
+          p12-password: ${{ secrets.CERTIFICATES_P12_PASSWORD }}
       - name: Clean and strip binaries
-        run: python3 cin.py
+        run: python3 ci.py
       - name: Tag folder
         run: touch Universal-Binaries/.signed
       - name: Build DMG
-        run:  python3.13 Generate-DMG.command
+        run:  python3.13 Generate-DMG.command --sign
       - name: Generate Checksums
         run: shasum -a 256 Universal-Binaries.dmg > sha256sum.txt
       - run: |
@@ -38,8 +42,8 @@ jobs:
         uses: softprops/action-gh-release@v3
         with:
           files: deploy/*
-          tag_name: 2.0.0
-          name: 2.0.0
+          tag_name: 2.0.1
+          name: 2.0.1
           body: ${{ github.event.head_commit.message }}
           prerelease: false
           generate_release_notes: true
