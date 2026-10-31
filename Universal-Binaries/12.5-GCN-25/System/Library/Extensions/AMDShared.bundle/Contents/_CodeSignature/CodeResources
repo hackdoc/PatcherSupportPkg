@@ -19,28 +19,28 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			UpjzQ1K6oTYRBRGdOcrqWBykbfs=
+			JySKhAwuVda6oyTOoUr7GhqQkA0=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"5298f34352baa1361105119d39caea581ca46dfb"</string>
+			<string>cdhash H"27248a840c2e55d6baa324cea14afb1a1a90900d"</string>
 		</dict>
 		<key>PlugIns/libGCNASM.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			dvXuCZ1EwKltuNPE0VPGb2TXgng=
+			mHKSTZo1moupNfsFIm9faChsqjU=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"76f5ee099d44c0a96db8d3c4d153c66f64d78278"</string>
+			<string>identifier libGCNASM and certificate root = H"73296d7e9dc9b3f5a2147684accdb869ee2bf43d"</string>
 		</dict>
 		<key>PlugIns/libSC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/wv7TpYvBtRkvGC98JsD839C2jc=
+			h4M7xeWZbGVl9OWlNSMFK0XRfzI=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"ff0bfb4e962f06d464bc60bdf09b03f37f42da37"</string>
+			<string>identifier libSC and certificate root = H"73296d7e9dc9b3f5a2147684accdb869ee2bf43d"</string>
 		</dict>
 		<key>Resources/runtime.amdil.bc</key>
 		<dict>

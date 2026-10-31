@@ -31,10 +31,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			HPzO92uEFemNYeyOcRM2Ohguqbg=
+			zmcjBAOluCHwnpIWZmuu/N+3R/s=
 			</data>
 			<key>requirement</key>
-			<string>identifier impostor and certificate root = H"c290d2bff240f4e990f7ac9b632f568d0e2a82f5"</string>
+			<string>identifier impostor and certificate root = H"73296d7e9dc9b3f5a2147684accdb869ee2bf43d"</string>
 		</dict>
 		<key>Resources/BronzeStatistics-analysis.js</key>
 		<dict>
